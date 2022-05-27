@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Yanone+Kaffeesatz&display=swap');
+header, footer {
+  background-color: #38b6ff;
+  padding: 10px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+main {
+  padding: 10px;
+  background-color: silver;
+  font-family: 'Cormorant Garamond', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
+
+}
+.kabinet{
+display: flex;
+}
+.post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  
+}
+
+.post img {
+  margin: 20px;
+  
+}
+
+.footer-columns {
+  display: flex;
+  
+}
+
+.footer-column {
+  flex: 50%;
+  margin: 20px;
+  
+}
+iframe {
+  width: 100%;
+height: 1500px;
+
+
+}
