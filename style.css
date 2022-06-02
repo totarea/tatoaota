@@ -1,49 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Yanone+Kaffeesatz&display=swap');
-header, footer {
-  background-color: #38b6ff;
-  padding: 10px;
-  font-family: 'Cormorant Garamond', serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&family=Raleway:wght@300&family=Yanone+Kaffeesatz&display=swap');
+    h1 {
+        text-align: center;
+       color: brown;
+        padding: 15px 15px 15px 15px;
+        font-family: 'Merriweather', serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 100px;
+       
+    }
+    ol {
+        
+        list-style: none;
+        width: 100%;
+    }
+    ol li {
+        padding: 0;
+        margin: 0;
+       
+    
+    }
+    li {
+float: left;
+width: auto;
+    }
+    a {
+        background: -webkit-linear-gradient(45deg, rgb(159, 193, 14), rgb(21, 110, 112));
+background: -moz-linear-gradient(45deg, rgb(159, 193, 14), rgb(21, 110, 112));
+background: linear-gradient(45deg, rgb(159, 193, 14), rgb(21, 110, 112));
+        color: #E0FFFF;
+    font: bold 13px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    }
+    li:hover a {
+        background:#BC8F8F ;
 
-main {
-  padding: 10px;
-  background-color: silver;
-  font-family: 'Cormorant Garamond', serif;
+    }
+    img {
+margin: 0 15px 15px 15px;
+background-color: #808080;
+border-radius: 65px 0 65px 0;
+box-shadow: 3px 3px 12px 1px #696969;
+border: 1px solid #2F4F4F;
+    }
+    .columns-2 {
+        column-count: 2;
+        font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
 font-family: 'Yanone Kaffeesatz', sans-serif;
-
-
-}
-.kabinet{
-display: flex;
-}
-.post {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  display: flex;
-  
-}
-
-.post img {
-  margin: 20px;
-  
-}
-
-.footer-columns {
-  display: flex;
-  
-}
-
-.footer-column {
-  flex: 50%;
-  margin: 20px;
-  
-}
-iframe {
-  width: 100%;
-height: 1500px;
-
-
-}
+    }
